@@ -1,3 +1,4 @@
+CREATE DATABASE Ecommerce;
 CREATE TABLE clientes (
 
 id_usuario int not null auto_increment primary key,

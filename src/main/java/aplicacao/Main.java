@@ -8,7 +8,7 @@ public class Main {
     
     public static void main(String[] args) throws Exception {
     
-        Cliente cliente = new Cliente(3, 2, 3, "joao", "bazeza@email", new Date());
+        Cliente cliente = new Cliente(3, 2, 3, "bruno", "bruninhoferamentas11@hotmail.com", new Date());
         ClienteDAO clienteDao = new ClienteDAO();
         
         clienteDao.create(cliente);
